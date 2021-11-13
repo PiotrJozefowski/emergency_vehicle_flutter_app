@@ -15,9 +15,9 @@ class _SignInState extends State<SignIn> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.brown[100],
+      backgroundColor: Colors.grey[900],
       appBar: AppBar(
-        backgroundColor: Colors.brown[400],
+        backgroundColor: Colors.grey[800],
         elevation: 0.0,
         title: Text('Sign in to GiveWay'),
       ),
@@ -30,7 +30,7 @@ class _SignInState extends State<SignIn> {
             if(result == null){
               print('error signing in');
             }else{
-              print('signed in');
+              print('signed in : ' + result.uid + ' is anon : ' + result.isAnon.toString());
               print(result);
             }
           },
