@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "108706836622",
+    "project_id": "giveway-75d07",
+    "storage_bucket": "giveway-75d07.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:108706836622:android:5cf474d69003df868499df",
+        "android_client_info": {
+          "package_name": "com.piotr_jozefowski.emergency_vehicle_flutter_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "108706836622-mekfubjcdgaqh3hek0vkdsgunstj3qrr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.piotr_jozefowski.emergency_vehicle_flutter_app",
+            "certificate_hash": "d779331a488a7791671daacc69162f607c28ef5d"
+          }
+        },
+        {
+          "client_id": "108706836622-2ojq4h7ofcau5auri21p65i73q0vg5oe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH1WqHyyUPKSzEKCT8Sfdr0I2zVF_pVkQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "108706836622-2ojq4h7ofcau5auri21p65i73q0vg5oe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
