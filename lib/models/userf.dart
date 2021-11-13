@@ -1,8 +1,9 @@
+import 'package:flutter/cupertino.dart';
+
 class UserF{
 
   final String uid;
-  final bool isAnon;
 
-  UserF(this.uid, this.isAnon);
+  UserF({required this.uid});
 }
 

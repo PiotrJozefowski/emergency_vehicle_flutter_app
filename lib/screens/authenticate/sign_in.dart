@@ -30,7 +30,7 @@ class _SignInState extends State<SignIn> {
             if(result == null){
               print('error signing in');
             }else{
-              print('signed in : ' + result.uid + ' is anon : ' + result.isAnon.toString());
+              print('signed in : ' + result.uid);
               print(result);
             }
           },
